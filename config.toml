@@ -3,6 +3,7 @@ theme = "solar"
 paginate = 5
 pygmentsStyle = "solarized-dark" # solarized-light, -dark or -dark256
 copyright = ""
+publishDir ="docs"
 
 [params]
   scheme = "dark" # light, dark, gray or preference
