@@ -1,3 +1,6 @@
 [submodule "themes/solar"]
 	path = themes/solar
 	url = https://github.com/bake/solar-theme-hugo.git
+[submodule "themes/solar2/themes/solar2"]
+	path = themes/solar2/themes/solar2
+	url = https://github.com/bake/solar-theme-hugo.git
