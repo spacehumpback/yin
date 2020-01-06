@@ -1,4 +1,4 @@
-title = "Solar Theme"
+title = "solar2"
 theme = "solar2"
 paginate = 5
 publishDir = "docs"
@@ -6,7 +6,7 @@ pygmentsStyle = "solarized-dark" # solarized-light, -dark or -dark256
 copyright = ""
 
 [params]
-  scheme = "preference" # light, dark, gray or preference
+  scheme = "dark" # light, dark, gray or preference
   description = "A wizard is never late"
 
 [menu]
