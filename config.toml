@@ -1,24 +1,32 @@
-title = "solar2"
-theme = "solar2"
-paginate = 5
-publishDir = "docs"
-pygmentsStyle = "solarized-dark" # solarized-light, -dark or -dark256
-copyright = ""
+baseURL = "https://example.com"
+languageCode = "en-us"
+title = "Exxample YinYong Blog"
+theme = "yinyang"
+DefaultContentLanguage = "en"
+
+[author]
+  name = "Joway Wang"
+  homepage = "https://joway.io/"
+
+[languages]
+  [languages.en]
+    contentDir = "content/en"
+    languageName = "English"
+    weight = 1
+  [languages.cn]
+    contentDir = "content/cn"
+    languageName = "Chinese"
+    weight = 1
 
 [params]
-  scheme = "dark" # light, dark, gray or preference
-  description = "A wizard is never late"
+disqus = "joway" # disqus account name
+extraHead = ''
+mainSections = ["posts"]
 
-[menu]
-  [[menu.main]]
-    name = "Feed"
-    url = "/index.xml"
-  [[menu.main]]
-    name = "Repository"
-    url = "https://github.com/bake/solar-theme-hugo/"
-  [[menu.other]]
-    name = "Hugo"
-    url = "https://themes.gohugo.io/solar-theme-hugo/"
-  [[menu.other]]
-    name = "Demo"
-    url = "https://themes.gohugo.io/theme/solar-theme-hugo/"
+[[params.socials]]
+name = "RSS"
+link = "/index.xml"
+
+[[params.socials]]
+name = "About"
+link = "https://joway.io"

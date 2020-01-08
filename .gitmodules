@@ -1,9 +1,4 @@
-[submodule "themes/solar"]
-	path = themes/solar
-	url = https://github.com/bake/solar-theme-hugo.git
-[submodule "themes/solar2/themes/solar2"]
-	path = themes/solar2/themes/solar2
-	url = https://github.com/bake/solar-theme-hugo.git
-[submodule "themes/themes/solar-theme-hugo"]
-	path = themes/themes/solar-theme-hugo
+
+[submodule "themes/solar-theme-hugo"]
+	path = themes/solar-theme-hugo
 	url = https://github.com/bake/solar-theme-hugo.git
